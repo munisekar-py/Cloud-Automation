@@ -1,0 +1,33 @@
+Status: Succeeded
+Test Event Name: TestEv
+
+Response:
+{
+  "statusCode": 200,
+  "body": {
+    "StoppedInstances": [
+      {
+        "InstanceId": "i-05cdcec04ab327a5b",
+        "Name": "Muni_ManageEC2_1",
+        "State": "running"
+      },
+      {
+        "InstanceId": "i-08ebe3b973e13a775",
+        "Name": "Muni_ManageEC2_2",
+        "State": "running"
+      }
+    ],
+    "StartedInstances": []
+  }
+}
+
+Function Logs:
+START RequestId: 9d9b6e5c-e627-4396-9699-5ed02647ec41 Version: $LATEST
+Instances to STOP:
+- Muni_ManageEC2_1 (i-05cdcec04ab327a5b) in state running
+- Muni_ManageEC2_2 (i-08ebe3b973e13a775) in state running
+END RequestId: 9d9b6e5c-e627-4396-9699-5ed02647ec41
+REPORT RequestId: 9d9b6e5c-e627-4396-9699-5ed02647ec41	Duration: 3917.78 ms	Billed Duration: 3918 ms	Memory Size: 128 MB	Max Memory Used: 94 MB	Init Duration: 300.34 ms
+
+Request ID: 9d9b6e5c-e627-4396-9699-5ed02647ec41
+
