@@ -1,4 +1,6 @@
-** Lambda **
+## Lambda
+
+**This project i am using a Lambda function that will automatically manage EC2 instances based on their tags.**
 
 
 
